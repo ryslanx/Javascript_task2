@@ -456,20 +456,91 @@
 
 
 //     диапазон рандома 8 до 732. (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
-let array = [];
-for (let i = 0; i < 20; i++) {
-    array[i] = Math.random();
-}
-console.log(array);
+// let array = [];
+// for (let i = 0; i < 20; i++) {
+//     array[i] = Math.round((Math.random() * (732 - 8) + 8));
+// }
+// console.log(array);
+
+
 // 2. вывести на консоль  каждый третий елемент
+// let array = [];
+// for (let i = 0; i < 20; i++) {
+//     array[i] = Math.round((Math.random() * (732 - 8) + 8));
+// }
+// for (let i = 0; i < array.length; i += 3) {
+//     console.log(array[i]);
+// }
+
+
 // 3. вывести на консоль  каждый третий елемент
 // но при условии что его значение является парным.
+// let array = [];
+// for (let i = 0; i < 20; i++) {
+//     array[i] = Math.round((Math.random() * (732 - 8) + 8));
+// }
+// for (let i = 0; i < array.length; i += 3) {
+//     if (array[i] % 2 === 0) {
+//         console.log(array[i]);
+//     }
+// }
+
+
 // 4. вывести на консоль  каждый третий елемент
 // но при условии что он имеет парное значение и
 // записать их в другой массив.
+// let array = [];
+// let array1 = [];
+// for (let i = 0; i < 20; i++) {
+//     array[i] = Math.round((Math.random() * (732 - 8) + 8));
+// }
+// for (let i = 0; i < array.length; i += 3) {
+//     if (array[i] % 2 === 0) {
+//         array1.push(array[i]);
+//     }
+// }
+// console.log(array1);
+
+
 // 5. Вывести каждый елемент массива у которого соседний с права элемент - парный
+// let array = [];
+// for (let i = 0; i < 20; i++) {
+//     array[i] = Math.round((Math.random() * (732 - 8) + 8));
+// }
+// for (let i = 0; i < array.length; i += 3) {
+//     if (array[i+1] % 2 === 0) {
+//         console.log(array[i]);
+//     }
+// }
+
+
 // 5 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. обрахувати середній чек.
-//
+// let array = [100,250,50,168,120,345,188];
+// let sum = 0;
+// for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
+// }
+// let average =  sum / array.length;
+// console.log(Math.ceil(average));
+
+
 // 3 створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
+// let array1 = [];
+// let array2 = [];
+// for (let i = 0; i < 20; i++) {
+//     array1[i] = Math.ceil(Math.random() * 20);
+//     array2.push(array1[i] * 5);
+// }
+// console.log(array1, array2);
+
+
 // 4 створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо об'єкт є числом,
 // додати його в інший масив.
+// let array1 = [true, 'acgsgf', 123, 'dfdsfasdf', false, {name: 'object'}, 1, 3, 4, 10];
+// let array2 = [];
+// for (let i = 0; i < array1.length; i++) {
+//     if (typeof array1[i] === "number") {
+//         array2.push(array1[i]);
+//     }
+// }
+// console.log(array1, array2);
